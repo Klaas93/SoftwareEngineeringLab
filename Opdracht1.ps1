@@ -12,7 +12,7 @@ Pause;
 # Change directory naar map waar script wordt bewaard
 $directory = Get-Location;
 Write-Host "Current directory" $directory -ForegroundColor Yellow;
-Set-Location C:\Users\klaas\Documents\HoGent\SEL\Opdracht1;
+Set-Location C:\Users\klaas\Documents\hogeschool\SEL\Opdracht1;
 $directory = Get-Location;
 Write-Host "New set directory" $directory -ForegroundColor Yellow;
 # Wait until user is ready
