@@ -10,7 +10,7 @@ Tussen ieder opdracht staat het commando `PAUSE`.
 Dit houdt het script on-hold totdat de gebruiker op een toets heeft geduwd voordat het naar de volgende stap gaat.
 
 #### Verloop van het script
-De eerste opdracht is een print 'Hello World'
+De eerste opdracht is een print 'Hello World'.
 
 Daarna een Change Directory. In de cursus staat er om `cd` te gebruiken.  
 Dit is echter een alias van `Set-Location`, die door PowerShell gebruikt wordt.  
@@ -43,14 +43,14 @@ Daarna krijgt de gebruiker de optie om deze rubriek over te slaan.
 
 Op het einde wordt er nog geprint dat het script is afgerond.  
 
-#### Software for Common Use
+#### Rubriek: Software for Common Use
 Deze staan opgelijst in het opdracht document.  
 Dit installeert Firefox, Visual Studio Code, Adobe Acrobat Reader, Github Desktop, VLC Media Player
 
-#### Software for SEL
+#### Rubriek: Software for SEL
 Dit installeert software speficiek voor SEL.  
 De geïnstalleerde software is: FileZilla, Virtual Box, MySQL Workbench
 
-#### Software for Personal Use  
+#### Rubriek: Software for Personal Use  
 Dit installeert zelf gekozen software.
 Ik heb voor mezelf gekozen om nog Fork en IntelliJ Community Edition te installeren.  
