@@ -25,7 +25,7 @@ Write-Host "";
  
 # Ask for permission to install the listed programs
 $approved = Read-Host "Do you approve to install these programs? (y/n)";
-while ($approved -notlike "y*" -and $approved -notlike "n*") {
+while ($approved -notmatch "y" -and $approved -notmatch "n") {
     Write-Output "Please answer with y or n.";
     $approved = Read-Host "Do you approve to install these programs? (y/n)";
 }
@@ -60,7 +60,7 @@ Write-Host " - MySQL Workbench";
 Write-Host "";
 # Ask for permission to install the listed programs
 $approved = Read-Host "Do you approve to install these programs? (y/n)";
-while ($approved -notlike "y*" -and $approved -notlike "n*") {
+while ($approved -notmatch "y" -and $approved -notmatch "n") {
     Write-Output "Please answer with y or n.";
     $approved = Read-Host "Do you approve to install these programs? (y/n)";
 }
@@ -94,7 +94,7 @@ Write-Host " - IntelliJ Community Edition";
 Write-Host "";
  # Ask for permission to install the listed programs
 $approved = Read-Host "Do you approve to install these programs? (y/n)";
-while ($approved -notlike "y*" -and $approved -notlike "n*") {
+while ($approved -notmatch "y" -and $approved -notmatch "n") {
     Write-Output "Please answer with y or n.";
     $approved = Read-Host "Do you approve to install these programs? (y/n)";
 }
