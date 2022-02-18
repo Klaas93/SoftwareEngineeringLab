@@ -19,6 +19,6 @@ Write-Host "New set directory" $directory -ForegroundColor Yellow;
 Write-Host "Press a key to move to the next step: Run the script to install software" -ForegroundColor DarkCyan;
 PAUSE;
 # Start installation script
-Write-Host "Start script InstallSoftware.ps1" -ForegroundColor Yellow;
-.\InstallSoftware.ps1;
-Write-Host "End script Installatie.ps1" -ForegroundColor Green;
+Write-Host "Start script Installatie.ps1" -ForegroundColor Yellow;
+.\Installatie.ps1;
+Write-Host "End script Opdracht1.ps1" -ForegroundColor Green;
