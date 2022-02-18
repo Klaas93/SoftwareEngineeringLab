@@ -52,5 +52,5 @@ Dit installeert software speficiek voor SEL.
 De geïnstalleerde software is: FileZilla, Virtual Box, MySQL Workbench
 
 #### Rubriek: Software for Personal Use  
-Dit installeert zelf gekozen software.
+Dit installeert zelf gekozen software.  
 Ik heb voor mezelf gekozen om nog Fork en IntelliJ Community Edition te installeren.  
