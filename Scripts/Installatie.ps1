@@ -26,7 +26,7 @@ Write-Host "";
 # Ask for permission to install the listed programs
 $approved = Read-Host "Do you approve to install these programs? (y/n)";
 while ($approved -notmatch "y" -and $approved -notmatch "n") {
-    Write-Output "Please answer with y or n.";
+    Write-Host "Please answer with y or n.";
     $approved = Read-Host "Do you approve to install these programs? (y/n)";
 }
 # Set empty line
@@ -61,7 +61,7 @@ Write-Host "";
 # Ask for permission to install the listed programs
 $approved = Read-Host "Do you approve to install these programs? (y/n)";
 while ($approved -notmatch "y" -and $approved -notmatch "n") {
-    Write-Output "Please answer with y or n.";
+    Write-Host "Please answer with y or n.";
     $approved = Read-Host "Do you approve to install these programs? (y/n)";
 }
 # Set empty line
@@ -95,7 +95,7 @@ Write-Host "";
  # Ask for permission to install the listed programs
 $approved = Read-Host "Do you approve to install these programs? (y/n)";
 while ($approved -notmatch "y" -and $approved -notmatch "n") {
-    Write-Output "Please answer with y or n.";
+    Write-Host "Please answer with y or n.";
     $approved = Read-Host "Do you approve to install these programs? (y/n)";
 }
 # Set empty line
