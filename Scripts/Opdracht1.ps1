@@ -9,10 +9,10 @@ PAUSE;
 Write-Host "Hello world" -ForegroundColor Yellow;
 Write-Host "Press a key to move to the next step: Move to directory where script is located" -ForegroundColor DarkCyan;
 Pause;
-# Change directory naar map waar script wordt bewaard
+# Change directory to Scripts dir
 $directory = Get-Location;
 Write-Host "Current directory" $directory -ForegroundColor Yellow;
-Set-Location C:\Users\klaas\Documents\hogeschool\SEL\Opdracht1;
+Set-Location C:\Users\klaas\Documents\hogeschool\SEL\Opdracht1\Scripts;
 $directory = Get-Location;
 Write-Host "New set directory" $directory -ForegroundColor Yellow;
 # Wait until user is ready
